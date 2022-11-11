@@ -1,0 +1,11 @@
+region = "eu-west-1"
+name   = "atlantis"
+domain = "xsre.cloud"
+atlantis_image = "v0.20.1"
+alb_ingress_cidr_blocks = ["0.0.0.0/0"]
+github_owner = "xsre"
+github_user = "sysrex"
+repositories = ["tf-xsre-atlantis", "tf-xsre-k8s"]
+github_token = "ghp_githubtoken"
+state_bucket = "tf-xsre-atlantis-state"
+state_table = "tf-xsre-atlantis-locks"
